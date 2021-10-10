@@ -1,0 +1,65 @@
+body {
+    background-color: #a37126;
+    margin: 0;
+}
+
+/*header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-image: url("../images/b&bHeader.jpeg");
+    height: 386px;
+}*/
+
+.dark-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/b&bHeader.jpeg");
+    background-size: cover;
+    height: 386px;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(58, 58, 58);
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+p, li {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+#company {
+    padding: 280px 0px 0px 15px;
+    font-size: 36px;
+}
+
+#slogan {
+    padding-left: 15px;
+}
+
+.text-shadow h1 {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.text-shadow h2 {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+li {
+    list-style: square;
+}

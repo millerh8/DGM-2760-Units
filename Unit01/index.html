@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Joe's Bed and Breakfast</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="dark-gradient text-shadow">
+            <h1 id="company" class="text-shadow"></h1>
+            <h2 id="slogan" class="text-shadow"></h2>     
+    </header>
+    <main>
+        <h1 id="pageName"></h1>
+        <h2>What I learned</h2>
+        <ul class="objectives">
+            <li>Build basic page with header, main, and footer sections</li>
+            <li>Find an image and size it correctly for header with CSS</li>
+            <li>Use JS to insert text into an HTML element</li>
+            <li>Use JS to dynamically insert the current date into the page</li>
+            <li>Style the page with CSS</li>
+            <li>Successfully push code to GitHub repository</li>
+            <li>Deploy a web page in netlfiy</li>
+        </ul>
+        <h2>
+            Today is 
+
+            <script>
+                let theDate = new Date()
+                document.write(theDate.toLocaleDateString())
+            </script>
+        </h2>
+
+        <p id="greeting"></p>
+    </main>
+
+    <footer>
+        <p>Assignment for DGM 2760 by Henry Miller</p>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
