@@ -1,6 +1,15 @@
 body {
-    background-color: #a37126;
+    background-color: #3291eb;
     margin: 0;
+}
+
+.dark-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/header-image.jpeg");
+    background-size: cover;
+    height: 386px;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 0;
 }
 
 main, footer {
