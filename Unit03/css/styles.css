@@ -1,0 +1,74 @@
+body {
+    background-color: #93d8c1;
+    margin: 0;
+}
+
+.dark-gradient {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/header.jpeg");
+    background-size: cover;
+    height: 386px;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#company {
+    padding: 280px 0px 0px 15px;
+    font-size: 36px;
+    color:rgb(236, 236, 236)
+}
+
+#slogan {
+    padding-left: 15px;
+    color: rgb(236, 236, 236);
+}
+
+.text-shadow h1 {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.text-shadow h2 {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+footer {
+    background-color: rgb(58, 58, 58);
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+    color: rgb(236, 236, 236)
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(26, 26, 26);
+}
+
+p, li {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(8, 8, 8);
+}
+
+.gameTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 320px;
+    background-color: #b3e8f4;
+    padding: 10px;
+}
+
+#d4 {
+    max-height: 150px;
+}
+
+#guess{
+    margin-bottom: 5px;
+}
