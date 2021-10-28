@@ -20,7 +20,8 @@ main, footer {
 #company {
     padding: 280px 0px 0px 15px;
     font-size: 36px;
-    color:rgb(236, 236, 236)
+    color:rgb(236, 236, 236);
+    margin: 0;
 }
 
 #slogan {
