@@ -56,3 +56,34 @@ p, li {
     font-family: 'Montserrat', sans-serif;
     color: rgb(8, 8, 8);
 }
+
+button {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 5px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(231, 189, 73);
+}
+
+button:hover {
+    background-color: rgb(236, 216, 160);
+}
+
+.flex-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.padding-right {
+    margin-right: 200px;
+}
+
+#error {
+    background-color: rgb(255, 147, 147);
+    color: rgb(150, 0, 0);
+}
