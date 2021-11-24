@@ -1,9 +1,9 @@
 document.querySelector('#create-story').onclick = () => {
-    const nouns = document.querySelector('#noun').value
+    const nouns = document.querySelector('#noun').value.toLowerCase()
     nounsArr = nouns.split(/\s+/); //.replace(/\s+/," ").split(" ")
-    const adjectives = document.querySelector('#adjective').value
+    const adjectives = document.querySelector('#adjective').value.toLowerCase()
     adjArr = adjectives.split(/\s+/);
-    const verbs = document.querySelector('#verb').value
+    const verbs = document.querySelector('#verb').value.toLowerCase()
     verbsArr = verbs.split(/\s+/);
 
     let story = `There once was a ${nounsArr[0]} that lived in a ${adjArr[0]} house with their friends: Rick, ${nounsArr[1]}, and James. 
