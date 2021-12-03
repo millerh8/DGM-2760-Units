@@ -65,8 +65,10 @@ document.querySelector('#sort-trees').onclick = () => {
 
 //set all array items to lowercase
 document.querySelector('#lowercase-trees').onclick = () => {
-    trees.map(v => v.toLowerCase())
-    listTrees()
+    for (let i = 0; i < 9; i++) {
+        trees[i] = trees[i].toLowerCase()
+        listTrees()
+      }
 }
 
 //get name of tree 3, error if none
