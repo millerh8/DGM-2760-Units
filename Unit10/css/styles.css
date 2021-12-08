@@ -57,22 +57,30 @@ p, li {
     color: rgb(8, 8, 8);
 }
 
-button {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-    margin: 5px;
-    padding: 5px 8px;
-    border: none;
-    border-radius: 8px;
-    background-color: rgb(34, 92, 26);
-    color: rgb(218, 218, 218);
-}
-
-button:hover {
-    background-color: rgb(52, 145, 39);
-}
-
 #picture {
     max-width: 50%;
+}
+
+ul.hotels {
+    display: flex;
+    list-style: none;
+}
+
+ul.hotels li a:link{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    background-color: rgb(151, 232, 252);
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+
+ul.hotels li a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 87, 105);
+}
+
+ul.hotels li a:active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(209, 94, 0);
 }
