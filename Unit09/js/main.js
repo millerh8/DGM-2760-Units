@@ -15,8 +15,8 @@ function duplicateMenu() {
         newLink.appendChild(linkText)
         newLI.appendChild(newLink)
         newList.appendChild(newLI)
+        document.querySelector('ul#smallNavArea') = newList
     })
-    document.querySelector('#smallNavArea') = newList
 }
 
 duplicateMenu()
