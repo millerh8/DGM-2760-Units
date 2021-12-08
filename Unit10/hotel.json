@@ -1,0 +1,28 @@
+{
+    "hotels": [
+        {
+            "name": "Marriott",
+            "rooms": "50",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "154 South Street",
+            "picture": "room1.jpg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": "40",
+            "gym": "No",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "14 King Street",
+            "picture": "room2.jpg"
+        },
+        {
+            "name": "Hilton",
+            "rooms": "80",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "85 Sweet Street",
+            "picture": "room3.jpg"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Hotels</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="dark-gradient text-shadow">
+        <h1 id="company">Hotels</h1>
+        <h2 id="slogan">JSON Data</h2>
+    </header>
+    
+    <main>
+        <h2>What I Learned</h2>
+            <ul>
+                <li>Create an external JSON file</li>
+                <li>Load the JSON file using Fetch API</li>
+                <li>How to use a try...catch block</li>
+                <li>How to use an async...await to make asynchronous function calls</li>
+                <li>How to store and retrieve resolved Promise data</li>
+                <li>Display data from the JSON file on the web page using three different buttons</li>
+            </ul>
+
+        <h2>Select a Hotel</h2>
+            <ul class="hotels">
+                <li><a href="#" id="marriott">Marriott Hotel Rooms</a></li>
+                <li><a href="#" id="sheraton">Sheraton Hotel Rooms</a></li>
+                <li><a href="#" id="hilton">Hilton Hotel Rooms</a></li>
+            </ul>
+
+        <h2 id="hotelName">Hotel</h2>
+        <h3>Address: <span id="address"></span></h3>
+        <p>Number of Rooms: <span id="rooms"></span></p>
+        <p>Gym Available: <span id="gym"></span></p>
+        <p>Room Types: <span id="type"></span></p>
+
+        <img id="picture">
+
+    </main>
+
+    <footer class="footerText">
+        <p>Assignment for DGM 2760 by Henry Miller</p>
+    </footer>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
