@@ -14,9 +14,9 @@ function duplicateMenu() {
         //append children to make them appear in the DOM
         newLink.textContent = linkText
         newLI.appendChild(newLink)
-        console.log(newLI)
         newList.appendChild(newLI)
     })
+    console.log(newList)
         newList = document.querySelector('ul#smallNavArea')
 }
 
