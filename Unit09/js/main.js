@@ -10,9 +10,8 @@ function duplicateMenu() {
         let newLink = document.createElement('a')
         newLink.setAttribute('href', menuItem.getAttribute('href'))
         //'copy' the text content from uppder menu to botom menu
-        let linkText = document.querySelector('ul#primaryNavigation a').textContent
         //append children to make them appear in the DOM
-        newLink.textContent = linkText
+        newLink.textContent = menuItem.textContent
         newLI.appendChild(newLink)
         newList.appendChild(newLI)
     })
