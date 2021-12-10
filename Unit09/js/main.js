@@ -4,7 +4,7 @@ function duplicateMenu() {
 
     //create new list items for bottom nav
     let newList = document.createElement('ul')
-
+    
     topList.forEach(menuItem => {
         let newLI = document.createElement('li')
         let newLink = document.createElement('a')
@@ -16,7 +16,8 @@ function duplicateMenu() {
         newLI.appendChild(newLink)
         newList.appendChild(newLI)
     })
-        newList = document.querySelector('ul#smallNavArea')
+        
+        document.querySelector('#smallNavArea').appendChild(newList)
 }
 
 duplicateMenu()
